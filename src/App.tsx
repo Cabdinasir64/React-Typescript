@@ -1,10 +1,10 @@
 import React from 'react';
-import Example2 from './Basic/example2';
+import Example3 from './Basic/example3';
 
 const App: React.FC = () => {
   return (
     <div>
-      <Example2 />
+      <Example3 name="John Doe" age={30} isStudent={false} />
     </div>
   );
 };
