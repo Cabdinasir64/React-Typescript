@@ -20,3 +20,5 @@ It demonstrates how modern frontend tools can work together efficiently.
 - Explore **Vite configuration and fast bundling**.  
 - Build scalable and maintainable frontend code.  
 - Combine **TypeScript with React hooks** (`useState`, `useEffect`, etc.).  
+
+#---
