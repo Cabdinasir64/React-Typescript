@@ -1,10 +1,10 @@
 import React from 'react';
-import Example1 from './Basic/example1';
+import Example2 from './Basic/example2';
 
 const App: React.FC = () => {
   return (
     <div>
-      <Example1 />
+      <Example2 />
     </div>
   );
 };
