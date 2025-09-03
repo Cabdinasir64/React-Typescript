@@ -88,9 +88,9 @@ const FormValidationDemo: React.FC = () => {
                             onChange={handleChange}
                             onFocus={() => handleFocus(field)}
                             onBlur={handleBlur}
-                            className={`w-full p-2 border rounded transition-colors ${focusField === field
-                                    ? "border-blue-400 ring-2 ring-blue-200"
-                                    : "border-gray-300"
+                            className={`w-full p-2 border rounded transition-colors outline-none ${focusField === field
+                                ? "border-blue-400 ring-2 ring-blue-200"
+                                : "border-gray-300"
                                 }`}
                         />
                         {errors[field as keyof FormErrors] && (
