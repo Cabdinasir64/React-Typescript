@@ -1,8 +1,8 @@
 import React from 'react';
-import Example2 from './StateManagment/example2'
+import Example4 from './StateManagment/example4'
 const App: React.FC = () => {
   return (
-    <Example2 />
+    <Example4 />
   );
 };
 
