@@ -1,8 +1,8 @@
 import React from 'react';
-import Example3 from './Lists & Generics/example3'
+import Example4 from './Lists & Generics/example4'
 const App: React.FC = () => {
   return (
-    <Example3 />
+    <Example4 />
   );
 };
 
