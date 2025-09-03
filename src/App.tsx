@@ -1,8 +1,11 @@
 import React from 'react';
-import Example1 from './Context, Reducer & Custom Hooks/example1'
+import { UserProvider } from './Context, Reducer & Custom Hooks/example2'
+import { Example3 } from './Context, Reducer & Custom Hooks/example3'
 const App: React.FC = () => {
   return (
-    <Example1 />
+    <UserProvider>
+      <Example3 />
+    </UserProvider>
   );
 };
 
