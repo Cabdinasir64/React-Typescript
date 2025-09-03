@@ -1,8 +1,8 @@
 import React from 'react';
-import Example5 from './Context, Reducer & Custom Hooks/example5'
+import Example2 from './StateManagment/example2'
 const App: React.FC = () => {
   return (
-      <Example5 />
+    <Example2 />
   );
 };
 
