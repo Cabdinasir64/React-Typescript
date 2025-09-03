@@ -1,10 +1,10 @@
 import React from 'react';
-import Example1 from'./Component Composition & Props Advanced/example1';
+import Example2 from'./Component Composition & Props Advanced/example2';
 
 const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center space-y-4">
-      <Example1 />
+      <Example2 />
     </div>
   );
 };
